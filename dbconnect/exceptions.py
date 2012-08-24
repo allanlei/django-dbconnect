@@ -1,0 +1,2 @@
+class DatabaseAliasNotFound(Exception):
+    pass
