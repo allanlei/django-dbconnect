@@ -3,7 +3,7 @@ from appconf import AppConf
 
 class DbConnectAppConf(AppConf):
     SUPPORTED_BACKENDS = ('postgresql', )
-    PRECHECK = True
+    PRECHECK = False
     ALIAS_MAPPER = 'dbconnect.plugins.namespace.resolvers.default'
     FALLBACK_PATH = None
 
